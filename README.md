@@ -4,7 +4,7 @@
 
 Independent Researcher in Machine Learning
 
-**Mechanistic Interpretability · Quantization · Measurement & Evaluation · Efficient DL · HMER**
+Interpretability · Quantization · Measurement · HMER
 
 [Website](https://pyodep.github.io) · [ORCID](https://orcid.org/0009-0000-2185-2630) · [Email](mailto:pyodep06@gmail.com) · [LinkedIn](https://www.linkedin.com/in/eunpyolee0621)
 
@@ -12,21 +12,17 @@ Independent Researcher in Machine Learning
 
 ---
 
-## Manuscripts
+### Manuscripts
 
-- **Behavior-Preserving Quantization Does Not Guarantee Circuit Preservation: A Measurement Protocol and a Case Study**
-  <br><sub>Quantization can preserve behavior while re-routing internal circuits.</sub>
-- **Direction Ranks, Magnitude Allocates: Gradient Signals in Mixed-Precision Quantization**
-  <br><sub>Free magnitude baselines match gradient-direction signals for bit allocation.</sub>
-- **Matched Nulls for Model-Modification Claims: A Protocol and Cross-Domain Audit**
-  <br><sub>Internal-change claims need behavior-matched null baselines.</sub>
-- **Recall-First Stroke Grouping: A 53K-Parameter Symbol-Candidate Proposal Stage for Graph-Based Online Handwritten Mathematical Expression Recognition**
-  <br><sub>A near-perfect-recall symbol-candidate proposal stage at 53K parameters.</sub>
+- Behavior-Preserving Quantization Does Not Guarantee Circuit Preservation
+- Direction Ranks, Magnitude Allocates: Gradient Signals in Mixed-Precision Quantization
+- Matched Nulls for Model-Modification Claims
+- Recall-First Stroke Grouping for Graph-Based Online HMER
 
-<sub>*All currently in preparation / under submission.*</sub>
+<sub>*In preparation / under submission.*</sub>
 
-## Projects
+### Projects
 
-- **Typin** — Local-first knowledge graph note-taking system with RAG and AI assistance
-- **TeamOps** — Team collaboration and project management tool
-- **HMER Pipeline** — End-to-end stroke → symbol → structure recognition for handwritten math
+- Typin — local-first knowledge-graph note-taking
+- TeamOps — team collaboration & project management
+- HMER Pipeline — online handwritten math recognition
