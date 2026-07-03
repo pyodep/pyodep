@@ -4,9 +4,9 @@
 
 ### Independent Researcher in Machine Learning
 
-I am interested in understanding and improving deep learning systems.
+I study how deep learning systems actually work — and how to measure claims about them rigorously.
 
-**Model Interpretability · Quantization · Efficient AI · HMER**
+**Mechanistic Interpretability · Quantization · Measurement & Evaluation · HMER**
 
 <br>
 
@@ -32,35 +32,42 @@ I am interested in understanding and improving deep learning systems.
 
 ## 🔬 Research Interests
 
-- Mechanistic Interpretability
-- Neural Network Quantization & Compression
-- Efficient Deep Learning
-- Optical Character Recognition (HMER)
-- Machine Learning
-
----
-
-## 🚧 Currently Working On
-
-### Circuit Preservation under Quantization
-Measuring whether quantization preserves or rewires internal circuits.
-
-### Gradient Signals in Mixed-Precision Quantization
-Understanding what gradient-based signals actually measure.
-
-### Recall-first Candidate Proposal for Online HMER
-Lightweight candidate proposal for online handwritten mathematical expression recognition.
-
-### Typin
-Local-first knowledge graph note-taking system with RAG and AI assistance.
+- **Mechanistic interpretability** — do internal circuits survive model modification (quantization, fine-tuning, pruning)?
+- **Neural network quantization & compression** — what do sensitivity signals actually measure?
+- **Measurement validity in empirical ML** — behavior-matched null baselines for claims about model internals
+- **Efficient deep learning** — small models, honest efficiency framing
+- **Online handwritten mathematical expression recognition (HMER)** — graph-based stroke-level pipelines
 
 ---
 
 ## 📄 Manuscripts
 
-- **Circuit Preservation under Quantization** *(in preparation)*
-- **Where Does the Value of Gradient Signals in Mixed-Precision Quantization Come From?* *(in preparation)*
-- **Recall-first Candidate Proposal for Online HMER** *(in preparation)*
+- **Behavior-Preserving Quantization Does Not Guarantee Circuit Preservation: A Measurement Protocol and a Case Study**
+  <br><sub>A circuit-drift audit protocol, plus a rigorous counterexample: INT4 quantization can preserve behavior while re-routing attention, governed by weight magnitude — tested across GPTQ/AWQ, 9 models, 3 families.</sub>
+- **Direction Ranks, Magnitude Allocates: Gradient Signals in Mixed-Precision Quantization**
+  <br><sub>A critical study of gradient-direction sensitivity signals: free magnitude baselines match or beat them for bit allocation from CIFAR to ImageNet scale, across CNNs and ViTs.</sub>
+- **Matched Nulls for Model-Modification Claims: A Protocol and Cross-Domain Audit**
+  <br><sub>"The modification changed the model's internals" means little without a behavior-matched null; a protocol and an audit spanning fine-tuning, pruning, LoRA, model merging, and refusal directions.</sub>
+- **Recall-First Stroke Grouping: A 53K-Parameter Symbol-Candidate Proposal Stage for Graph-Based Online Handwritten Mathematical Expression Recognition**
+  <br><sub>A near-perfect-recall, 53K-parameter candidate proposal stage as the front end of a graph-based online HMER pipeline.</sub>
+
+<sub>*All currently in preparation / under submission.*</sub>
+
+---
+
+## 🚧 Currently Working On
+
+### Matched-Null Generalization
+Turning the matched-null protocol into a standalone cross-domain audit suite: fine-tuning, pruning, LoRA/representation drift, model merging, and refusal-direction edits.
+
+### Consequences of Circuit Re-Routing
+From measurement to impact: does circuit-level drift under quantization predict out-of-distribution failures or safety-behavior changes that aggregate metrics hide?
+
+### Graph-Based Online HMER Pipeline
+End-to-end stroke → symbol → structure recognition: recall-first candidate proposal, GNN symbol segmentation, and arborescence-based relation parsing.
+
+### Typin
+Local-first knowledge graph note-taking system with RAG and AI assistance.
 
 ---
 
@@ -97,7 +104,6 @@ Local-first knowledge graph note-taking system with RAG and AI assistance.
 - Website: https://pyodep.github.io
 - ORCID: https://orcid.org/0009-0000-2185-2630
 - Email: pyodep06@gmail.com
-- OpenReview: https://openreview.net
 
 ---
 
