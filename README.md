@@ -4,7 +4,7 @@
 
 Independent Researcher in Machine Learning
 
-Interpretability · Quantization · Measurement · HMER
+Interpretability · Quantization · Measurement · Optimization · HMER
 
 [Website](https://pyodep.github.io) · [ORCID](https://orcid.org/0009-0000-2185-2630) · [Email](mailto:pyodep06@gmail.com) · [LinkedIn](https://www.linkedin.com/in/eunpyolee0621)
 
