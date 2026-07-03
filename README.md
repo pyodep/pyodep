@@ -15,14 +15,12 @@ My research interests include interpretability, quantization, measurement, optim
 
 </div>
 
-### Manuscripts
+### Research Topics
 
-- Behavior-Preserving Quantization Does Not Guarantee Circuit Preservation
-- Direction Ranks, Magnitude Allocates: Gradient Signals in Mixed-Precision Quantization
-- Matched Nulls for Model-Modification Claims
-- Recall-First Stroke Grouping for Graph-Based Online HMER
-
-<sub>*In preparation / under submission.*</sub>
+- Circuit preservation under quantization — does a compressed model still compute the same way?
+- What gradient-based sensitivity signals actually measure in mixed-precision quantization
+- Behavior-matched null baselines for claims about model internals
+- Recall-first stroke grouping for online handwritten math recognition
 
 ### Projects
 
