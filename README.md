@@ -14,16 +14,3 @@ My research interests include interpretability, quantization, measurement, optim
 <a href="mailto:pyodep06@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white"/></a>
 
 </div>
-
-### Research Topics
-
-- **Circuit Preservation under Quantization** — testing whether a quantized model that behaves the same still computes the same way inside.
-- **Gradient Signals in Mixed-Precision Quantization** — asking what gradient-based sensitivity signals actually measure, against free magnitude baselines.
-- **Matched Nulls for Model-Modification Claims** — building behavior-matched null baselines so "the modification changed the model's internals" becomes a testable claim.
-- **Recall-First Stroke Grouping for Online HMER** — designing a lightweight symbol-candidate proposal stage that never misses, for handwritten math recognition.
-
-### Projects
-
-- Typin — local-first knowledge-graph note-taking
-- TeamOps — team collaboration & project management
-- HMER Pipeline — online handwritten math recognition
