@@ -1,6 +1,6 @@
 # Eunpyo Lee
 
-I am an independent researcher in machine learning.
+I am conducting independent research in machine learning.
 
 My research interests include interpretability, quantization, measurement, optimization, and HMER.
 
